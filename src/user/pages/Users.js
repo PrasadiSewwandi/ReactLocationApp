@@ -4,9 +4,9 @@ const Users = () => {
   const USERS = [
       {id :'u1',
       name :'prasadi sewwandi',
-      image :'../pictures/a.jpg',
+      image : require('../pictures/a.jpg'),
       places : 3                
-}
+     }
 ];
 
   return <UsersList items={USERS} />;
